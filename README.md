@@ -11,15 +11,25 @@ This repository contains a complete machine learning workflow built for the fict
 
 ##  Repository Structure  
 ├── starter.ipynb # Jupyter notebook for training model and defining the pipeline
+
 ├── lambda1.py # Lambda function for invoking inference endpoint
+
 ├── lambda2.py # Lambda function for intermediate processing
+
 ├── lambda3.py # Lambda function for final inference steps
+
 ├── step_function_definition.json # AWS Step Functions workflow definition
+
 ├── successful_state_machine.png # Visualization of the successful execution workflow
+
 ├── failed_state_machine.png # Visualization of workflow behavior during failures
+
 ├── train.lst # Sample training data list
+
 ├── test.lst # Sample testing data list
+
 └── .ipynb_checkpoints # Jupyter notebook checkpoints (can be ignored)
+
 
 ##  Getting Started
 
